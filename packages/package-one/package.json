@@ -1,0 +1,20 @@
+{
+  "name": "package-one",
+  "version": "1.0.0",
+  "description": "",
+  "eslint": "node_modules/eslint/bin/eslint.js --ext .ts .",
+  "scripts": {
+    "build": "tsc --p tsconfig.json",
+    "eslint": "eslint ./src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.19.0",
+  "devDependencies": {
+    "eslint": "^8.32.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-plugin-import": "^2.27.5",
+    "typescript": "^5.7.3"
+  }
+}

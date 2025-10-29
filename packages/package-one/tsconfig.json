@@ -1,0 +1,46 @@
+{
+  "compilerOptions": {
+    // Output Configuration
+    "outDir": "./dist",
+    "sourceMap": true,
+
+    // Language and Environment
+    "target": "es2016",
+    "lib": ["dom", "dom.iterable", "esnext"],
+
+    // Module Settings
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "allowArbitraryExtensions": true,
+    "isolatedModules": true,
+
+    // JavaScript Support
+    "allowJs": true,
+    "esModuleInterop": true,
+
+    // Type Checking
+    "strict": true,
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noUncheckedIndexedAccess": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+
+    // Additional Checks
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+
+    // Path Alias
+    "baseUrl": ".",
+    "paths": {
+      "@src/*": ["./src/*"]
+    }
+  },
+  "include": ["**/*.ts", "**/*.js"],
+  "exclude": ["node_modules", "dist"]
+}

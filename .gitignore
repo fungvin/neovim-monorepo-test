@@ -1,0 +1,12 @@
+# Operating System Files
+.DS_Store
+.cache
+
+# IDE Files
+.idea
+
+# Node
+node_modules
+
+# PNPM
+.pnpm-store

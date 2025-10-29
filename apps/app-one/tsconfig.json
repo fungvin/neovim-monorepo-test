@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    // modules
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+
+    // language and env
+    "target": "esnext",
+
+    // typechecking
+    "strict": true,
+
+    // interop constraints
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+
+    "lib": ["esnext", "dom"],
+
+    // Path Alias
+    "baseUrl": ".",
+    "paths": {
+      "~/src/*": ["./src/*"]
+    }
+  },
+  "include": ["./src/index.ts", "./src/**/*.ts"],
+  "exclude": ["node_modules", "./src/**/*.test.ts"]
+}
